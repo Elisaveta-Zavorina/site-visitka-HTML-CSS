@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Елизавета Заворина</title>
+    <link rel="icon" href="./photo_2023-12-10_18-04-56.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body> 
+    <img src="file:///C:/Users/Elisaveta/Desktop/QA%20%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BA%D0%B8/%D0%92%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0/CV/ph.png"  height="500px" width="500px" style="float:right; margin: 0px 0px 0px 15px">
+
+    <div class="name">Елизавета Заворина</div>
+
+    <div class="block">
+      <div class="block-title">Контакты</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="https://t.me/ElisavetaZavorina" target="_blank"> telegram</a>
+        </div>
+                <div class="entry">
+          <a href="https://github.com/Elisaveta-Zavorina" target="_blank">git</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:zavorina.e.o@gmail.com">zavorina.e.o@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">что я знаю и умею</div>
+      <div class="entry">
+        <p> - Что такое тестирование, онсновные его принципы и виды;</p>
+        <p> - Что из себя представляет клиент-серверная архитектура,  архитектурный стиль REST и протокол SOAP, JSON/XML;</p>
+        <p> - Что такое API и как тестировать HTTP-запросы в Swagger и Postman;</p> 
+        <p> - Основы Баз Данных, что такое SQL, основные команды (селекты, джойны);</p>
+        <p> - Применяю популярные техники тест-дизайна (классы эквивалентности, граничные значения, попарное тестирование, таблица принятия решений);</p> 
+        <p> - Умею составлять баг-репорты, писать тест-кейсы и чек-листы</p>
+      </div>
+       <div class="entry">
+        <a href="https://www.qa.studio/" target="_blank"> училась в qa.studio </a>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
